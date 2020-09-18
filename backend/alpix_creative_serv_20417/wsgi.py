@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alpix_creative_serv_20417.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "alpix_creative_serv_20417.settings")
 
 application = get_wsgi_application()
